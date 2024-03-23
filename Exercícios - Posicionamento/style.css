@@ -1,0 +1,45 @@
+.page-wrapper {
+    margin: 10px;
+    text-align: justify;
+    text-indent: 10px;
+    justify-content: end;
+    font-size: 18px;
+    position: relative;
+}
+
+.explanation {
+    width: 60%;
+    margin-right: 35%;
+    border-right: solid 1px #1f295c;
+    padding-right: 2%;    
+    margin-bottom: 40px;
+}
+
+.design-selection{
+    position: absolute;
+    top: 396px;
+    left: 65%;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+h1, h2 {
+    font-size: 45px;
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+}
+
+#zen-intro header {
+    background-color: #1f295c;
+    color: aliceblue;
+    text-indent: 45px;
+    border-radius: 15px;
+    text-align: center;
+}
