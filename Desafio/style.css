@@ -1,0 +1,195 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffffff;
+}
+
+@font-face {
+    font-family: 'Akira' ;
+    src: url('Akira Expanded Demo.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@keyframes Animacao {
+    from {
+        opacity: 0.1;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/*  ESTILIZAÇÃO DO CABECALHO*/
+
+header {
+    font-size: 0.625rem;
+    font-family: 'Akira' ;
+}
+
+.cabecalho {
+    background-color: #fc9b09;
+    height: 11rem;
+    border-radius: 16px;
+    width: 95%;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    animation: Animacao 1s ;
+}
+
+#logo {
+    width: 240px;
+    margin-left: 45%;
+    padding-bottom: 0px;
+    padding-top: 1%;
+    animation: Animacao 3s ;
+}
+
+.nomes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 3%;
+    margin-right: 3%;
+    animation: Animacao 4s ;
+}
+
+@keyframes Aumentar {
+    from { font-size: 100%;}
+    to { font-size: 105%;}
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+a:hover {
+    color: blue;
+    animation: Aumentar 2s ;
+}
+
+
+/*  ESTILIZAÇÃO DA PARTE PRINCIPAL*/
+
+main {
+    animation: Animacao 4s;
+}
+
+
+.Correroumorrer {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.Provadefogo {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.curamortal {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#Postcm {
+    border-radius: 15px;
+    width: 20%; 
+}
+
+#Postpf {
+    width: 240%;
+    border-radius: 15px;
+}
+
+#Postacm {
+    border-radius: 15px;
+    width: 20%;
+}
+
+
+#TituloM1 {
+    font-family: "Akira";
+    color: #fc9b09;
+}
+
+#TituloM2 {
+    font-family: "Akira";
+    color: white;
+}
+
+#TituloM3 {
+    font-family: "Akira";
+    color: #fc9b09;
+}
+
+.sobrepf, .sobreacm, .sobrecm {
+    flex-grow: 2;
+    text-align: center;
+}
+
+
+#Provadefogo {
+    background-color: #fc9b09;
+    height: 30%
+}
+
+#pcm, #pacm {
+    font-family: 'Times New Roman', Times, sans-serif;
+    font-size: 24px;
+    text-align: justify;
+    padding-left: 30px;
+    text-indent: 45px;
+}
+
+#ppf {
+    font-family: 'Times New Roman', Times, sans-serif;
+    font-size: 24px;
+    text-align: justify;
+    text-indent: 45px;
+    padding-right: 30px;
+}
+
+
+/* Estilização do footer */
+
+.final {
+    background-color: #fc9b09;
+    margin-top: 2vw;
+    height:350px;
+    font-size: 20px;
+    font-family: "Akira"
+}
+
+#Criador{
+    color: #ffffff;
+    text-align: center;
+    padding-top: 140px;
+}
+
+#PDITA {
+    padding-top: 10px;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+}
+
+#btop {
+    width: 2%;
+    position: relative;
+    float: right;
+    top: 60px;
+    padding-right: 10px;
+}
+
+
